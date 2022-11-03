@@ -32,17 +32,7 @@ contract Ballot {
      * @param proposalNames names of proposals
      */
 
-    constructor(bytes32[] memory proposalNames) {
-        chairperson = msg.sender;
-        voters[chairperson].weight = 1;
 
-        for (uint256 i = 0; i < proposalNames.length; i++) {
-            // 'Proposal({...})' creates a temporary
-            // Proposal object and 'proposals.push(...)'
-            // appends it to the end of 'proposals'.
-            proposals.push(Proposal({name: proposalNames[i], voteCount: 0}));
-        }
-    }
 
     /**
      * @dev Give 'voter' the right to vote on this ballot. May only be called by 'chairperson'.
