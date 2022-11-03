@@ -28,12 +28,6 @@ contract Ballot {
     Proposal[] public proposals;
 
     /**
-     * @dev Create a new ballot to choose one of 'proposalNames'.
-     * @param proposalNames names of proposals
-     */
-
-
-    /**
      * @dev Delegate your vote to the voter 'to'.
      * @param to address to which vote is delegated
      */

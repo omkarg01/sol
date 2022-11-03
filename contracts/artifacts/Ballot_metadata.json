@@ -184,11 +184,11 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0x42b97df3e66fe6d3eb7c028b5da7afb49ce299c6ab53118c383f131b56e9ce22",
+			"keccak256": "0x8e59fef09a1b68df362b56fa07b061fa9901c008239036f4f56741d9a493ce9d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f26aa31d06d253f7655f884316ef8d249821dcaaa6da69d0a4d8b64120c840eb",
-				"dweb:/ipfs/QmSSChXfXH2HtRaekqRTf6bEVT2VaWXdAiFL1tigRBfHvx"
+				"bzz-raw://96cfed77c00ec11bda2b95e15e83e431d25f6fe3efd74da9a43ff74a95e209a5",
+				"dweb:/ipfs/QmNNcAzHrz2TmwbiLqiqxwcom5XYKhv8E8BV2RhvfFmPqW"
 			]
 		}
 	},
