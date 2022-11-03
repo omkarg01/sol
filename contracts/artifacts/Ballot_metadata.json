@@ -6,17 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "bytes32[]",
-						"name": "proposalNames",
-						"type": "bytes32[]"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
 				"name": "chairperson",
 				"outputs": [
@@ -38,19 +27,6 @@
 					}
 				],
 				"name": "delegate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "voter",
-						"type": "address"
-					}
-				],
-				"name": "giveRightToVote",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -157,22 +133,10 @@
 			"details": "Implements voting process along with vote delegation",
 			"kind": "dev",
 			"methods": {
-				"constructor": {
-					"details": "Create a new ballot to choose one of 'proposalNames'.",
-					"params": {
-						"proposalNames": "names of proposals"
-					}
-				},
 				"delegate(address)": {
 					"details": "Delegate your vote to the voter 'to'.",
 					"params": {
 						"to": "address to which vote is delegated"
-					}
-				},
-				"giveRightToVote(address)": {
-					"details": "Give 'voter' the right to vote on this ballot. May only be called by 'chairperson'.",
-					"params": {
-						"voter": "address of voter"
 					}
 				},
 				"vote(uint256)": {
@@ -220,11 +184,11 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0x17e9233ed6675f117810ddc56c2b3185cbe3463dd7b2f36874769bc20a849d87",
+			"keccak256": "0x42b97df3e66fe6d3eb7c028b5da7afb49ce299c6ab53118c383f131b56e9ce22",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5543fe22e86d52e247f13144ebf4354558ffbc47b1b4bd9c30d0c8e3851ab3c0",
-				"dweb:/ipfs/QmaacvSHpo3kjkDThhyADvd2tKLmZsxsmk798NS2NgPfBX"
+				"bzz-raw://f26aa31d06d253f7655f884316ef8d249821dcaaa6da69d0a4d8b64120c840eb",
+				"dweb:/ipfs/QmSSChXfXH2HtRaekqRTf6bEVT2VaWXdAiFL1tigRBfHvx"
 			]
 		}
 	},
